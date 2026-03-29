@@ -2,7 +2,7 @@ name: rst_chat_app
 description: "A new Flutter project for RST Workspace."
 publish_to: 'none'
 
-version: 1.0.0+4
+version: 1.0.0+5
 
 environment:
   sdk: ^3.11.4
@@ -71,5 +71,5 @@ flutter_native_splash:
   image: assets/logo.png # Your logo in the center
   android_12:
     image: assets/logo.png
-    color: "#0F766E"
+    color: "#FFFFFF"
   fullscreen: true
