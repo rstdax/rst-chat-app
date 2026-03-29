@@ -1,0 +1,75 @@
+name: rst_chat_app
+description: "A new Flutter project for RST Workspace."
+publish_to: 'none'
+
+version: 1.0.0+4
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Firebase Core & Auth
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^5.0.0
+  firebase_storage: ^12.0.0
+  firebase_messaging: ^15.2.10
+
+  # UI & Utilities
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  intl: ^0.19.0
+  image_picker: ^1.2.1
+  flutter_local_notifications: ^21.0.0
+  flutter_native_splash: ^2.4.7
+  rxdart: ^0.28.0
+  flutter_linkify: ^6.0.0
+  url_launcher: ^6.3.2
+  any_link_preview: ^3.0.3
+  app_settings: ^7.0.0
+  agora_rtc_engine: ^6.5.3
+  permission_handler: ^12.0.1
+  googleapis: ^16.0.0
+  extension_google_sign_in_as_googleapis_auth: ^2.0.13
+  flutter_callkit_incoming: ^3.0.0
+  flutter_ringtone_player: ^4.0.0+4
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # Icon generator package moved here
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  # Registering the assets folder so the app can find your logo
+  assets:
+    - assets/
+    - assets/sounds/
+
+# Configuration for the App Icon
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#0F766E" 
+  adaptive_icon_foreground: "assets/logo.png"
+
+flutter_native_splash:
+  color: "#FFFFFF" 
+  color_dark: "#000000" 
+  image: assets/logo.png # Your logo in the center
+  android_12:
+    image: assets/logo.png
+    color: "#0F766E"
+  fullscreen: true

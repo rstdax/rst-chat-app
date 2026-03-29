@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "279273359642",
+    "project_id": "rst-office-chat",
+    "storage_bucket": "rst-office-chat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279273359642:android:c26979be91e20d71e204a3",
+        "android_client_info": {
+          "package_name": "com.rst.officechat.rst_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279273359642-9pfk0jacje9ke57690q3b2tb6rugfgg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb1PkUkt2eavsT6uYABjQnJ9dFsQv2aug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279273359642-9pfk0jacje9ke57690q3b2tb6rugfgg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279273359642:android:8ffd01729e97ad8ee204a3",
+        "android_client_info": {
+          "package_name": "com.rst.rstchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279273359642-lugn7kaunfo0hbkqrqcp65b79ej4qncq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rst.rstchat",
+            "certificate_hash": "76bb4c4c839441b7ad311168ec88aee806aee5fb"
+          }
+        },
+        {
+          "client_id": "279273359642-9pfk0jacje9ke57690q3b2tb6rugfgg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb1PkUkt2eavsT6uYABjQnJ9dFsQv2aug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279273359642-9pfk0jacje9ke57690q3b2tb6rugfgg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
